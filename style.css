@@ -48,3 +48,14 @@ body {
   height: 50px;
   color: royalblue;
 }
+
+.container.active .question {
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.container.active .question::after {
+  font-size: 25px;
+  transition: 0.5s;
+  content: "\00D7";
+}
